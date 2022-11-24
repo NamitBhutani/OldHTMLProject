@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+
+.top {
+    line-height: 70px;
+    height: 70px;
+    z-index: 5;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+.li_topic{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+li {
+    float: right;
+}
+
+.top_li {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+li a,
+.dropbtn {
+    text-transform: uppercase;
+    font-size: 1em;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+
+.top_li a:hover:not(.active),
+.dropdown:hover .dropbtn {
+    background-color: #8cd9f2;
+    transition: .7s;
+}
+
+.active {
+    background-color: #87e55c;
+    transition: .5s;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7df1ff;
+    min-width: 105px;
+    z-index: 1;
+    font-size: 17px;
+}
+
+.li_topic:hover {
+    color: aqua;
+    transition: 2s;
+    cursor: pointer;
+    
+}
+
+.dropdown-content a {
+    height: 50px;
+    color: white;
+    padding: 5px 22px;
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active {
+    cursor: default;
+}
+
+b {
+    font-size: 1.2em;
+    color: white;
+}
+
+.footer {
+    box-shadow: 0px 0px 0px 6px #a9ffeb;
+    top: 1500px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #39d139;
+    height: 125px;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+div ul li a {
+    font-size: 35px;
+    display: block;
+    padding-top: 35px;
+    padding-left: 15px;
+    color: #ffe6c5;
+}
+
+div ul li a:hover {
+    opacity: .8;
+}
+
+.foot {
+    font-size: 18.6px;
+    color: #ff3f3f;
+    padding-left: 200px;
+}
+
+.content{
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 13px;
+}
+
+.what, .why, .india{
+    color: coral;
+    padding-bottom: 5px;
+}
+
+.ans1, .ans2, .ans3i, .ans3ii, .ans3iii, .ans3iv, .ans3v{
+    padding-left: 33px;
+    padding-bottom: 15px;
+    color: #73abb7;
+}
+.ans3{
+    display: inline-block;
+}
+
+.quote{
+   
+    color: #2eaf07;
+}
+
+.quoteh{
+     padding-top: 27px;
+}
+
+.quote:hover{
+    opacity: .6;
+    color:blueviolet;
+    cursor: pointer;
+}

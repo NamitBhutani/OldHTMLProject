@@ -1,0 +1,64 @@
+.body{
+    margin: 80px;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+.pix{display: block;
+    font-size: 3.9em;
+    text-align: center;
+    line-height: 80px;
+}
+.pix:hover {
+    cursor: default;
+    height: 80px;
+    border-radius: 9px;
+    color: aliceblue;
+    background-color: gray;
+    transition: 1s;
+    opacity: .8;
+}
+
+.three{
+    z-index: -1;
+    position: absolute;
+    left: 500px;
+    height: 500px;
+    width: 700px;
+}
+.four{    z-index: -1;
+    position: absolute;
+    right: 500px;
+    height: 500px;
+    width: 700px;
+}
+b{   margin-left: 30px;
+    text-align: center;
+    font-size: 1.9em;
+}
+.camera{
+    margin-left: 900px;
+    text-align: left;
+}
+.specs{
+    margin-top: 150px;
+    padding: 20px;
+}
+.andro, .cam{height: 500px;}
+h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+.topbtn{
+    font-size: 22px;
+
+}
+
+.top{
+
+    padding-left: 80px;
+    margin-top: -50px;
+}

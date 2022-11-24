@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.my-nav{
+	background: white;
+	border-radius: 0 ;
+	box-shadow: 0px .5px 0px #F0FFF0;
+	height: 71px;
+}
+
+.one:hover{
+
+	border-bottom: 3px solid #BCC8FB;
+}
+
+.one:active{
+
+	border-bottom: 7px solid red;
+	transition: .1s;
+}
+
+li{
+	padding-top: 15px;
+}
+
+img{
+	padding-bottom: 100px;
+}
+
+.jumbotron{
+	margin-top: 90px;
+	height: 300px;
+	width: 90%;	
+}
+
+.signup{
+	height: 300px;
+	width: 400px;
+	font-size: 25px;
+}
+
+.joy{
+	text-align: center;
+}
+
+.button{
+	margin-top: 40px;
+	margin-left: 157px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+.joy{
+	font-size: 26px;
+}
+
+.signa{
+	text-decoration: none;
+}
+
+footer{
+	width: 100%;
+	background-color: grey;
+	padding: 60px 0;
+	z-index: 100;
+	height: 80px;
+	margin-top:150px ;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+i{
+	float: right;
+	padding-right: 40px;
+	margin-top: -15px;
+	color: white;
+	text-align: center;
+}
+
+.map{
+	border-radius: 20px;
+    padding-top: 20px;
+    background-color: aliceblue;
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 700px;
+    border: 1px solid black;
+}
+
+.google{
+	margin-left: 480px;
+	margin-top: 100px;
+}
+
+.scroll{
+	font-family: 'Roboto Slab';
+	text-align: center;
+}
+
+.scroll1{
+	font-family: 'Roboto Slab';
+	text-align: center;
+}
+
+.start{
+	margin-top: -50px;
+}
+
+.loca{
+	font-family: 'Roboto Slab';
+	text-align: center;
+	padding-bottom: 0px;
+	text-decoration: underline;
+
+}
+
+.quoteh{
+
+	font-family: 'Roboto Slab';
+	color: #0fb2db;
+	text-align: center;
+}
+
+
+.quote{
+	width: 70%;
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	padding-top: 100px;
+
+}
+
+.three{
+	text-align: center;
+	font-family: 'Roboto Slab';
+	color: #0fb2db;
+
+}
+
+.explore:hover{
+	text-decoration: none;
+}
+
+i:hover{
+	color: lightblue;
+	transition: .4s;
+}
+.topbtn{
+	font-size: 22px;
+
+}
+
+.top{
+
+	padding-left: 80px;
+    margin-top: -50px;
+}

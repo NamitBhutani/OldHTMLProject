@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.shadow-box {
+  background: white;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+input::placeholder {
+  color: #b6b6b6;
+}
+.clear-fix {
+  clear: both;
+}
+@media (min-width: 700px) {
+  .shadow-box {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+.login-wrapper .title {
+  color: #ccc;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.login-wrapper .mobile-hint {
+  color: #bcbab7;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.8em;
+}
+.login-wrapper .social-media ul {
+  display: flex;
+  max-width: 283px;
+  margin: 0 auto;
+}
+.login-wrapper .social-media .facebook-icon {
+  background: url("../images/002-facebook-logo.png");
+}
+.login-wrapper .social-media .twitter-icon {
+  background: url("../images/003-twitter-logo-silhouette.png");
+}
+.login-wrapper .social-media .google-icon {
+  background: url("../images/001-google-plus-symbol.png");
+}
+.login-wrapper .social-media .icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.login-wrapper .social-media ul li a {
+  width: 100%;
+  display: flex;
+}
+.login-wrapper .social-media ul li {
+  padding: 20px;
+  margin-left: 5px;
+}
+.login-wrapper .social-media ul li:first-child {
+  margin-left: 0;
+}
+
+.login-wrapper .social-media .google {
+  background: #d1231d;
+}
+.login-wrapper .social-media .twitter {
+  background: #00c7ff;
+}
+.login-wrapper .social-media .facebook {
+  background: #475fa1;
+}
+
+.login-wrapper .social-media .text {
+  display: none;
+}
+
+h2 {
+  display: flex;
+  color: #ccc;
+  justify-content: center;
+  align-items: center;
+}
+
+h2:before {
+  content: "";
+  height: 1px;
+  background: #eee;
+  flex: 1;
+  margin-right: 10px;
+}
+
+h2:after {
+  content: "";
+  height: 1px;
+  background: #eee;
+  flex: 1;
+  margin-left: 10px;
+}
+.login-wrapper {
+  width: 100%;
+  padding: 40px;
+}
+.login-wrapper .login-form .form input[type=text],
+.login-wrapper .login-form .form input[type=password] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.login-wrapper .content-item span {
+  display: none;
+}
+.login-wrapper .content-item {
+  margin-bottom: 20px;
+}
+.login-form .login {
+  width: 100%;
+}
+.filled {
+  border: 1px solid #fff;
+  background: #548dc9;
+  color: #fff;
+}
+.sign-up .signup-btn {
+  border: 1px solid #548dc9;
+  background: white;
+  color: #548dc9;
+  margin-top: -15px;
+  margin-left: 15px;
+}
+.sign-up .text {
+  color: #548dc9;
+}
+.square {
+  border-radius: 4px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+}
+.terms-of-service a {
+  color: #548dc9;
+  text-transform: capitalize;
+  font-size: 0.9em;
+}
+.terms-of-service ul {
+  display: flex;
+}
+.terms-of-service li {
+  padding-left: 20px;
+}
+.sign-up {
+  display: flex;
+}
+.bottom-content {
+  padding: 43px;
+}
+@media (min-width: 18em) {
+  .login-wrapper {
+    padding: 10px;
+  }
+}
+@media (min-width: 45em) {
+  /*~720px*/
+  .login-wrapper .mobile-hint {
+    display: none;
+  }
+  .login-wrapper .social-media .text {
+    display: block;
+    width: 60%;
+    padding-top: 5px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    letter-spacing: 1.1px;
+  }
+  .login-wrapper .social-media ul {
+    display: block;
+    margin: 0 auto;
+  }
+  .login-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 35px;
+  }
+  body {
+    background: #528fcc;
+    background: linear-gradient(
+      45deg,
+      #528fcc 0%,
+      #528fcc 26%,
+      #766fa9 63%,
+      #8c639a 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr='#528fcc',
+        endColorstr='#8c639a',
+        GradientType=1
+      );
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .login-wrapper .social-media .icon {
+    width: 25px;
+    height: 25px;
+  }
+  .login-wrapper .social-media ul li {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+  .login-wrapper .content-item span {
+    display: inline-block;
+    padding: 5px 0;
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+  }
+  .login-wrapper .login-form .form input[type=text],
+  .login-wrapper .login-form .form input[type=password] {
+    text-align: initial;
+  }
+  .login-form .login {
+    min-width: 200px;
+    padding: 15px 25px;
+    float: right;
+  }
+  .sign-up .signup-btn {
+    background: none;
+    color: #fff;
+    border: 1px solid;
+  }
+  .sign-up .text {
+    color: #FFF;
+  }
+  .terms-of-service a {
+    color: #fff;
+  }
+
+  .bottom-content {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .login-wrapper .social-media ul li {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,46 @@
+a {
+  padding:15px;
+  display:block;  
+}
+
+.diamond {
+	width: 0;
+	height: 0;
+	border: 15px solid transparent;
+	border-bottom-color: #D4CEAC;
+	position: relative;
+	top: -15px;
+	display: block;
+	text-indent: -9999px;
+	margin: 35px auto 45px;
+	clear: both;
+  transition: all 0.4s ease;
+}
+
+.diamond:hover {
+  border-bottom-color: #806868;
+  top:-20px;
+}
+
+.diamond:after {
+	content: '';
+	position: absolute;
+	left: -15px;
+	top: 15px;
+	width: 0;
+	height: 0;
+	border: 15px solid transparent;
+	border-top-color: #D4CEAC;
+  transition: all 0.1s linear;
+}
+
+.diamond:hover:after {
+	content: '';
+	position: absolute;
+	left: -15px;
+	top: 0;
+	width: 0;
+	height: 0;
+	border: 15px solid transparent;
+	border-bottom-color: #806868;
+}

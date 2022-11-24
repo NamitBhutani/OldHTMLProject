@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.two{
+    padding-top: 50px;
+	display: block;
+	margin: auto;
+	width: 60%;
+    height: 30px;
+}
+
+#slide1{
+    margin-top: 60px;
+    height: 600px;
+}
+
+video{
+	margin-top: 8%;
+	width: 100%;
+	height: 550px;
+}
+.topbtn{
+	font-size: 22px;
+
+}
+
+.top{
+
+	padding-left: 80px;
+    margin-top: -50px;
+}
+
+.five{
+	font-size: 2.7em;
+	padding:20px;
+	text-align: center;
+	text-decoration: underline;
+	
+}
+
+.dis{
+	text-align: center;
+	font-size: 25px;
+}

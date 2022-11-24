@@ -1,0 +1,111 @@
+
+
+.topic {
+    line-height: 100px;
+    padding: 100px;
+    height: 752px;
+    background-image: url(d1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 752px;
+    box-shadow: 0px 0px 0px 5px #a9ffeb;
+    );
+    opacity: 1;
+    margin-top: 35px;
+}
+
+.subdivision {
+    width: 650px;
+    height: 300px;
+    margin: auto;
+    background-color: #c5f6ff;
+    opacity: 0.6;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.subdivision:hover {
+    opacity: 0.7;
+}
+
+h2 {
+    text-align: center;
+    font-size: 5em;
+    border: 2px;
+    padding-bottom: 10px;
+}
+
+.subtopic {
+    border-radius:10px;
+    text-align: center;
+    border: 2px black;
+    color: white;
+    background-color: #ff1b1b;
+    width: 580px;
+    font-size: 2em;
+    margin: auto;
+    height: 200px;
+    padding-top: 50px;
+}
+
+
+.ques{
+   background-color:white;
+   opacity:0.7;
+}
+
+.ques:hover{
+   background-color:silver;
+   opacity:1;
+}
+
+
+.content{
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 13px;
+}
+
+.what, .why, .india{
+    color: coral;
+    padding-bottom: 5px;
+}
+
+.ans1, .ans2, .ans3i, .ans3ii, .ans3iii, .ans3iv, .ans3v{
+    padding-left: 33px;
+    padding-bottom: 15px;
+    color: black;
+}
+.ans3{
+    display: inline-block;
+}
+
+.quote{
+   
+    color: #2eaf07;
+}
+
+.quoteh{
+     padding-top: 27px;
+}
+
+.quote:hover{
+    opacity: .6;
+    color:blueviolet;
+    cursor: pointer;
+}
+
+.quotediv{
+    background-color:black;
+}
+
+.footer {
+    box-shadow: 0px 0px 0px 6px #a9ffeb;
+    top: 1650px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #39d139;
+    height: 125px;
+    width: 100%;
+}
